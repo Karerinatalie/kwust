@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+class animals
+{
+public:
+    string colour;
+    string weight;
+};
+int main()
+{
+ animals dog;
+ dog.colour="brown";
+ dog.weight="15.5 kg";
+ cout<<dog.colour<<"\n";
+ cout<<dog.weight;
+ return 0;
+}
+
